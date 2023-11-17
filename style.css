@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap');
+body {
+  background-color:rgb(0, 0, 0);
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.bundle{
+    width: 8px;
+    height: 50px;
+    margin-left: 750px;
+    border-radius:66px;
+    margin-top: -9px;
+    background-clip: border-box;
+    background: linear-gradient( rgb(0, 255, 81) 70%, black 30%);
+}
+  
+h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color:palegreen;
+    width: 400px;
+    box-shadow: 2px 1px 12px 1px white;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: -13px;
+    border-radius:9px;
+    transform: rotate(2deg);
+}
+h3:hover{
+    transform: rotate(2.3deg);
+    
+}
+button {
+  padding: 10px 100px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  transition: all 0.8s ease-out;
+  font-size: 15px;
+  color: white;
+  font-weight: bolder;
+  border: 1px solid palegreen;
+  background: linear-gradient(to left, palegreen 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: left;
+  box-shadow: 2px 3px 12px 0px  palegreen;;
+
+}
+button:hover {
+  background-position: right;
+  color: black;
+}
+
+
+input {
+  padding: 10px 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  outline: 1px solid rgb(0, 255, 60);
+  background-color: rgba(122, 178, 37, 0.296);
+  color: white;
+}
+pre{
+    color:rgb(36, 235, 36);
+}
+
+.tableContainer table{
+    color: white;
+    margin-left: 350px;
+    padding: 10px;
+    /* background-color: rgb(63, 85, 105); */
+}
+.tableContainer table tr th{
+    /* border: 1px solid white; */
+    padding: 7px 50px;
+    box-shadow: 0.3px -0px 5px 1px rgb(114, 255, 121);
+}
+#tableBody{
+  background-color: rgba(255, 247, 0, 0.16);
+  color: rgb(223, 168, 57);
+  font-weight: 600;
+ 
+}
+label{
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(0, 255, 179);
+  font-weight: 100;
+}
+
+label #date_input{
+  margin-left: 1px;
+  margin-top: -19px;
+  font-size: 15px;
+}
+#date_input{
+  margin-left: -270px;
+}
+label #date_input_end{
+  margin-top: 10px;
+  font-size: 15px;
+}
+/* const CLIENT_ID = '136798221349-c1ssfqa9tmrmdmtikmgv5gql56dsjkih.apps.googleusercontent.com';
+const API_KEY = 'AIzaSyDvdIO1K3hywFQomtCqAMmigq9Ix4NdVj4'; */
